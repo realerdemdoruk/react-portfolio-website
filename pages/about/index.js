@@ -60,8 +60,11 @@ const about = () => {
                     align="center"
                     src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
                     alt="erdem-doruk-2954b7227"
-                    height="30"
-                    width="40"
+                    className="
+                      w-10
+                      h-10
+                      hover:scale-110
+                    "
                   />
                 </a>
                 <a href="https://fb.com/realerdemdoruk" target="blank">
@@ -69,8 +72,11 @@ const about = () => {
                     align="center"
                     src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg"
                     alt="realerdemdoruk"
-                    height="30"
-                    width="40"
+                    className="
+                    w-10
+                    h-10
+                    hover:scale-110
+                  "
                   />
                 </a>
                 <a href="https://instagram.com/realerdemdoruk" target="blank">
@@ -78,8 +84,11 @@ const about = () => {
                     align="center"
                     src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
                     alt="realerdemdoruk"
-                    height="30"
-                    width="40"
+                    className="
+                      w-10
+                      h-10
+                      hover:scale-110
+                    "
                   />
                 </a>
                 <a href="https://discord.gg/2263" target="blank">
@@ -87,8 +96,11 @@ const about = () => {
                     align="center"
                     src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg"
                     alt="2263"
-                    height="30"
-                    width="40"
+                    className="
+                    w-10
+                    h-10
+                    hover:scale-110
+                  "
                   />
                 </a>
               </p>
@@ -112,8 +124,11 @@ const about = () => {
                   <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
                     alt="bootstrap"
-                    width="40"
-                    height="40"
+                    className="
+                    w-10
+                    h-10
+                    hover:scale-110
+                  "
                   />{' '}
                 </a>{' '}
                 <a
@@ -125,8 +140,11 @@ const about = () => {
                   <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
                     alt="csharp"
-                    width="40"
-                    height="40"
+                    className="
+                      w-10
+                      h-10
+                      hover:scale-110
+                    "
                   />{' '}
                 </a>{' '}
                 <a
@@ -138,8 +156,11 @@ const about = () => {
                   <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
                     alt="css3"
-                    width="40"
-                    height="40"
+                    className="
+                    w-10
+                    h-10
+                    hover:scale-110
+                  "
                   />{' '}
                 </a>{' '}
                 <a
@@ -151,8 +172,11 @@ const about = () => {
                   <img
                     src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
                     alt="firebase"
-                    width="40"
-                    height="40"
+                    className="
+                    w-10
+                    h-10
+                    hover:scale-110
+                  "
                   />{' '}
                 </a>{' '}
                 <a
@@ -164,8 +188,11 @@ const about = () => {
                   <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                     alt="html5"
-                    width="40"
-                    height="40"
+                    className="
+                    w-10
+                    h-10
+                    hover:scale-110
+                  "
                   />{' '}
                 </a>{' '}
                 <a href="https://www.java.com" target="_blank" rel="noreferrer">
@@ -173,8 +200,11 @@ const about = () => {
                   <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
                     alt="java"
-                    width="40"
-                    height="40"
+                    className="
+                    w-10
+                    h-10
+                    hover:scale-110
+                  "
                   />{' '}
                 </a>{' '}
                 <a
@@ -186,8 +216,11 @@ const about = () => {
                   <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                     alt="javascript"
-                    width="40"
-                    height="40"
+                    className="
+                    w-10
+                    h-10
+                    hover:scale-110
+                  "
                   />{' '}
                 </a>{' '}
                 <a
@@ -199,8 +232,11 @@ const about = () => {
                   <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
                     alt="mysql"
-                    width="40"
-                    height="40"
+                    className="
+                      w-10
+                      h-10
+                      hover:scale-110
+                    "
                   />{' '}
                 </a>{' '}
                 <a
@@ -212,8 +248,11 @@ const about = () => {
                   <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
                     alt="python"
-                    width="40"
-                    height="40"
+                    className="
+                    w-10
+                    h-10
+                    hover:scale-110
+                  "
                   />{' '}
                 </a>{' '}
                 <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
@@ -221,8 +260,11 @@ const about = () => {
                   <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
                     alt="react"
-                    width="40"
-                    height="40"
+                    className="
+                    w-10
+                    h-10
+                    hover:scale-110
+                  "
                   />{' '}
                 </a>{' '}
                 <a
@@ -234,8 +276,11 @@ const about = () => {
                   <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
                     alt="sass"
-                    width="40"
-                    height="40"
+                    className="
+                    w-10
+                    h-10
+                    hover:scale-110
+                  "
                   />{' '}
                 </a>{' '}
                 <a
@@ -247,8 +292,11 @@ const about = () => {
                   <img
                     src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
                     alt="tailwind"
-                    width="40"
-                    height="40"
+                    className="
+                    w-10
+                    h-10
+                    hover:scale-110
+                  "
                   />{' '}
                 </a>{' '}
               </p>

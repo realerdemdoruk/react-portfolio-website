@@ -21,10 +21,19 @@ const TypingAnimation = React.memo(
 );
 export default function Home() {
   return (
-    <Layout title={'Portfolio / Projects'} description={'My Portfolio'}>
-      <main className="w-full h-full flex items-center justify-center  ">
-        <section className="h-full max-w-5xl  ">
-          <div className="flex flex-col   mt-52 items-center justify-center">
+    <Layout
+      title={'Portfolio / Home'}
+      description={'My Portfolio'}
+      className="w-full  flex items-center justify-center whitespace-nowrap overflow-auto scrollbar-hide "
+    >
+      <main
+        className="w-full  flex items-center justify-center   "
+        style={{
+          height: '100vh',
+        }}
+      >
+        <section className="h-full max-w-5xl flex items-center justify-center    ">
+          <div className="flex items-center justify-center flex-col">
             <h4 className="text-lg text-white">
               <span className="text-xl font-normal">Hello,</span> I'm
             </h4>

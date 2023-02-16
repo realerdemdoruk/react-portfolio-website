@@ -30,7 +30,7 @@ const Layout = ({ title, description, children }) => {
       <div className="relative z-10 px-3  overflow-hidden min-h-screen antialiased font-montserrat bg-gray-900 text-white ">
         <div className="w-full h-full">
           <Header />
-          <div className="flex">{children}</div>
+          <div>{children}</div>
         </div>
       </div>
     </>
