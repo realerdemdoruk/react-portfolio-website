@@ -52,8 +52,9 @@ const about = () => {
                     align="center"
                     src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
                     alt="realerdemdoruk"
+                    className="hover:scale-110"
                     height="30"
-                    width="40"
+                    width="35"
                   />
                 </a>
                 <a
@@ -64,11 +65,9 @@ const about = () => {
                     align="center"
                     src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
                     alt="erdem-doruk-2954b7227"
-                    className="
-                      w-10
-                      h-10
-                      hover:scale-110
-                    "
+                    className="hover:scale-110"
+                    height="30"
+                    width="35"
                   />
                 </a>
                 <a href="https://fb.com/realerdemdoruk" target="blank">
@@ -77,10 +76,10 @@ const about = () => {
                     src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg"
                     alt="realerdemdoruk"
                     className="
-                    w-10
-                    h-10
                     hover:scale-110
                   "
+                    height="30"
+                    width="35"
                   />
                 </a>
                 <a href="https://instagram.com/realerdemdoruk" target="blank">
@@ -89,10 +88,10 @@ const about = () => {
                     src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
                     alt="realerdemdoruk"
                     className="
-                      w-10
-                      h-10
                       hover:scale-110
                     "
+                    height="30"
+                    width="35"
                   />
                 </a>
                 <a href="https://discord.gg/2263" target="blank">
@@ -100,11 +99,9 @@ const about = () => {
                     align="center"
                     src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg"
                     alt="2263"
-                    className="
-                    w-10
-                    h-10
-                    hover:scale-110
-                  "
+                    className="hover:scale-110"
+                    height="30"
+                    width="35"
                   />
                 </a>
               </p>
