@@ -1,8 +1,5 @@
-import Link from 'next/link';
-
 import Layout from '../../components/Layout';
 import ProjectCard from '../../components/ProjectCard';
-
 import { getAllProjects } from '../../functions/getAllProjects';
 
 export default function ProjectsPage({ projects }) {
