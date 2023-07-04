@@ -1,8 +1,7 @@
-import { ThemeProvider } from "next-themes";
-import NextNProgress from "nextjs-progressbar";
-import { fuchsia } from "tailwindcss/colors";
-
-import "../styles/globals.css";
+import { ThemeProvider } from 'next-themes';
+import NextNProgress from 'nextjs-progressbar';
+import { fuchsia } from 'tailwindcss/colors';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
