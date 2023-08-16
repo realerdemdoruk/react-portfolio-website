@@ -1,29 +1,29 @@
-import React from 'react';
-import Layout from '../components/Layout';
-import { motion } from 'framer-motion';
-import Typical from 'react-typical';
+import React from "react";
+import Layout from "../components/Layout";
+import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
+import GithubIcon from "../components/icons/Github.js";
+import TwitterIcon from "../components/icons/Twitter.js";
+import LinkedinIcon from "../components/icons/Linkedin.js";
 
-import GithubIcon from '../components/icons/Github.js';
-import TwitterIcon from '../components/icons/Twitter.js';
-import LinkedinIcon from '../components/icons/Linkedin.js';
+const TypingAnimation = React.memo(() => {
+  return (
+    <TypeAnimation
+      sequence={["Front End Developer", 2000, "React Developer", 2000]}
+      wrapper="span"
+      preRenderFirstString={true}
+      speed={50}
+      style={{ fontSize: "1em", display: "inline-block" }}
+      repeat={Infinity}
+    />
+  );
+});
 
-const TypingAnimation = React.memo(
-  () => {
-    return (
-      <Typical
-        loop={3}
-        wrapper="p"
-        steps={['Jr. Front End Developer', 2000, 'React Developer', 2000]}
-      />
-    );
-  },
-  (props, prevProps) => true
-);
 export default function Home() {
   return (
     <Layout
-      title={'Portfolio / Home'}
-      description={'My Portfolio'}
+      title={"Portfolio / Home"}
+      description={"My Portfolio"}
       className="w-full  flex items-center justify-center whitespace-nowrap overflow-auto scrollbar-hide "
     >
       <main className="w-full  flex items-center justify-center h-screen">
@@ -44,32 +44,32 @@ export default function Home() {
             <div className="flex items-center mt-8 space-x-6 md:mt-4">
               <motion.a
                 href="https://github.com/realerdemdoruk"
-                target={'_blank'}
+                target={"_blank"}
                 rel="noopener noreferrer"
                 className="flex items-center justify-center  transition-colors duration-300 text-gray-100 hover:text-pinkish-200"
                 whileHover={{ scale: 1.1 }}
               >
-                <GithubIcon className={'w-8 h-8 fill-current'} />
+                <GithubIcon className={"w-8 h-8 fill-current"} />
               </motion.a>
 
               <motion.a
                 href="https://twitter.com/realerdemdoruk"
-                target={'_blank'}
+                target={"_blank"}
                 rel="noopener noreferrer"
                 className="flex items-center justify-center  transition-colors duration-300 text-gray-100 hover:text-pinkish-200"
                 whileHover={{ scale: 1.1 }}
               >
-                <TwitterIcon className={'w-8 h-8 fill-current'} />
+                <TwitterIcon className={"w-8 h-8 fill-current"} />
               </motion.a>
 
               <motion.a
                 href="https://www.linkedin.com/in/erdem-doruk-2954b7227/"
-                target={'_blank'}
+                target={"_blank"}
                 rel="noopener noreferrer"
                 className="flex items-center justify-center  transition-colors duration-300 text-gray-100 hover:text-pinkish-200"
                 whileHover={{ scale: 1.1 }}
               >
-                <LinkedinIcon className={'w-8 h-8 fill-current'} />
+                <LinkedinIcon className={"w-8 h-8 fill-current"} />
               </motion.a>
             </div>
           </div>
