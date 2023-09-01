@@ -1,13 +1,13 @@
-import React from 'react';
-import Layout from '../../components/Layout';
+import React from "react";
+import Layout from "../../components/Layout";
 
 const about = () => {
   return (
-    <Layout title={'Portfolio / About'} description={'My Portfolio'}>
+    <Layout title={"Portfolio / About"} description={"My Portfolio"}>
       <main className="w-full h-full flex items-center justify-center">
         <section className="h-full max-w-5xl pt-5 ">
           <div className="border-2  p-9">
-            <h6 className="font-bold  text-pinkish-200 transition-colors duration-300  hover:text-white">
+            <h6 className="font-bold cursor-pointer  text-pinkish-200 transition-colors duration-300  hover:text-white">
               WHO AM I !
             </h6>
             <p className="mt-5">
@@ -33,7 +33,7 @@ const about = () => {
             <p>
               Please visit my portfolio to learn more about me and see my work.
             </p>
-            <h6 className="mt-5 font-bold transition-colors duration-300  hover:text-pinkish-200">
+            <h6 className="mt-5 font-bold transition-colors duration-300 cursor-pointer  hover:text-pinkish-200">
               Education:
             </h6>
             <p>
@@ -45,7 +45,7 @@ const about = () => {
               </ul>
             </p>
             <p className="">
-              <h3 className="font-bold mt-5 transition-colors duration-300  hover:text-pinkish-200">
+              <h3 className="font-bold mt-5 transition-colors duration-300 cursor-pointer hover:text-pinkish-200">
                 Connect with me:
               </h3>
               <p className="flex gap-2 mt-5 ">
@@ -110,7 +110,7 @@ const about = () => {
             </p>
 
             <p className=" flex flex-col font-bold ">
-              <h3 className="mt-5 font-bold transition-colors duration-300 hover:text-pinkish-200">
+              <h3 className="mt-5 cursor-pointer font-bold transition-colors duration-300 hover:text-pinkish-200">
                 Languages and Tools:
               </h3>
               <p className="flex mt-5 gap-1">
@@ -251,6 +251,19 @@ const about = () => {
                     alt="nextjs"
                     className="w-10 h-10 hover:scale-110"
                   />
+                </a>
+                <a
+                  href="https://www.typescriptlang.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                    alt="typescript"
+                    width="40"
+                    height="40"
+                    className="w-10 h-10 hover:scale-110"
+                  />{" "}
                 </a>
               </p>
             </p>
