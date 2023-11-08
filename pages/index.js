@@ -9,7 +9,14 @@ import LinkedinIcon from "../components/icons/Linkedin.js";
 const TypingAnimation = React.memo(() => {
   return (
     <TypeAnimation
-      sequence={["Front End Developer", 2000, "React Developer", 2000]}
+      sequence={[
+        "Front End Developer",
+        2000,
+        "React Developer",
+        2000,
+        "React Native Developer",
+        2000,
+      ]}
       wrapper="span"
       preRenderFirstString={true}
       speed={50}

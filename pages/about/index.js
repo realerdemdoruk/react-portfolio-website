@@ -263,7 +263,20 @@ const about = () => {
                     width="40"
                     height="40"
                     className="w-10 h-10 hover:scale-110"
-                  />{" "}
+                  />
+                </a>
+                <a
+                  href="https://reactnative.dev/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://reactnative.dev/img/header_logo.svg"
+                    alt="reactnative"
+                    width="40"
+                    height="40"
+                    className="w-10 h-10 hover:scale-110"
+                  />
                 </a>
               </p>
             </p>
