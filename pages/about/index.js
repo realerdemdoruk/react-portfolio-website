@@ -5,17 +5,7 @@ const about = () => {
   return (
     <Layout title={"Portfolio / About"} description={"My Portfolio"}>
       <main className="w-full h-full flex items-center justify-center">
-        <section
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            height: "100vh",
-            maxWidth: "64rem",
-            paddingTop: "1.25rem",
-          }}
-        >
+        <section className="h-full max-w-5xl pt-5 ">
           <div className="p-9">
             <h6 className="font-bold cursor-pointer  text-pinkish-200 transition-colors duration-300  hover:text-white">
               WHO AM I !
